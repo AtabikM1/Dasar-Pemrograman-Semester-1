@@ -6,9 +6,9 @@ public class garasidani {
         int alas, tinggi;
         float luas;
         System.out.print("Panjang Alas");
-        alas = input.nextInt();
+        alas = sc.nextInt();
         System.out.print("Panjang Tinggi");
-        tinggi = input.nextInt();
+        tinggi = sc.nextInt();
         luas = alas * tinggi / 2;
         System.out.println("Luas Garasi: "+ luas);
     
