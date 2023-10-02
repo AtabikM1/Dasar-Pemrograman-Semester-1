@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class pemilihan2percobaan1 {
     public static void main(String[] args){
         Scanner input06 = new Scanner(System.in);
-        System.out.print(" masukkan tahun = ");
+        System.out.print("masukkan tahun = ");
         int tahun = input06.nextInt();
 
         if ((tahun  % 4)== 0){
