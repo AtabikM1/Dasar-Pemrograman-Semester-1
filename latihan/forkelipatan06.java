@@ -9,7 +9,7 @@ public class forkelipatan06 {
         int jumlah = 0, kelipatan, counter = 0; //inisialisasi variabel
         
 
-        System.out.println("Masukkan bilangan kelipatan (1-9) : ");
+        System.out.print("Masukkan bilangan kelipatan (1-9) : ");
         kelipatan = scan.nextInt(); // menambah code untuk menerima dari input dari keyboard
             //Buat struktur perulangan FOR dengan kondisi pemilihan IF 
 
