@@ -28,6 +28,6 @@ public class dowhilecuti06 {
                 }
 
             } 
-        }while (jatahcuti>0);
+        }while (jatahcuti>0 && ! konfirmasi.equalsIgnoreCase("t"));
     }
 }
