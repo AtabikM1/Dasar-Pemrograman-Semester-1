@@ -25,6 +25,9 @@ public class whilegaji06 {
                 gajilembur = jumlahjamlembur*1000000;
             } else if (jabatan.equalsIgnoreCase("manajer")){
                 gajilembur = jumlahjamlembur*2100000;
+            } else {
+                System.out.println("jabatan tidak valid");
+                i--;
             }
 
             totalgajilembur += gajilembur;
