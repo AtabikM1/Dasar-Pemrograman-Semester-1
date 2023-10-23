@@ -1,4 +1,4 @@
-package latihan;
+
 
 public class dowhile06 {
     public static void main(String[] args){

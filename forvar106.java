@@ -1,4 +1,4 @@
-package latihan;
+
 public class forvar106 {
     public static void main(String [] args){
         for (int i = 1, j = 34; i<j; i++, j--){
