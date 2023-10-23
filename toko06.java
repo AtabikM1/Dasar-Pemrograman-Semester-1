@@ -5,7 +5,7 @@ public class toko06 {
 
         String namapelanggan, namaproduk, statuspelanggan, ulang;
         int kuantitasbrg, harga,  i = 0,banyakbrgbelanja;
-        double  tagihan, totalbelanja, discount = 0;
+        double  tagihan,  discount = 0, subtotalbelanja, totalbelanja;
         
         Scanner sc = new Scanner(System.in);
 
@@ -16,9 +16,9 @@ public class toko06 {
         System.out.print("Apakah pelanggan member = (ya atau tidak) ");
         statuspelanggan = sc.next();
 
-        i = 0;
+        boolean ulangi=true;
         
-        while(i<banyakbrgbelanja){
+        while(ulangi){
 
             System.out.print("Produk yang dibeli = ");
             namaproduk = sc.next();
@@ -26,9 +26,13 @@ public class toko06 {
             kuantitasbrg = sc.nextInt();
             System.out.print("harga = ");
             harga = sc.nextInt();
-            i++;
+            
 
-            totalbelanja= kuantitasbrg*harga;
+            subtotalbelanja = kuantitasbrg*harga;
+
+            System.out.println("apakah akan menambah barang = ");
+            
+            
             
             
             if (statuspelanggan.equalsIgnoreCase("ya")){

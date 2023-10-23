@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class cashier06 {
     public static void main(String[] args){
-        int total, discount, paid;
+        int total;
+        double discount, paid;
         String card;
         Scanner sc = new Scanner(System.in);
         System.out.println("does costumer have a card (yay or nay)? ");
@@ -17,7 +18,7 @@ public class cashier06 {
             }
         } else {
             if (total > 200000) {
-                discount = 10000;
+                discount = 0.1*total;
             } else {
                 discount = 0;
             }

@@ -11,7 +11,7 @@ public class switchcase06 {
         switch(angka) {
             case 1:
             System.out.println("hari senin");
-            break;
+           
             case 2:
             System.out.println("hari selasa");
             break;
