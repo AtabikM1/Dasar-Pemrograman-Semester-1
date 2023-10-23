@@ -1,3 +1,4 @@
+package latihan.jobsheet1;
 public class ContohTipeData06 {
     public static void main(String[] args) {
     char GolonganDarah = 'A';
