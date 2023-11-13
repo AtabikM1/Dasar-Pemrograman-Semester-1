@@ -12,7 +12,7 @@ public class square {
             for (int i = 0 ; i <= N ; i++){ // inner loop yang mencetak bintang
                 System.out.print(" * ");
             }
-            
+            System.out.println();
         }
         
     }

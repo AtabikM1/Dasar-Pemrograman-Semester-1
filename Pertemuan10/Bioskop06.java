@@ -17,8 +17,6 @@ public class Bioskop06 {
        penonton[3][1]= "Hena";
 
        //print semua isi elemennya ke layar
-
-       System.out.printf("%s \t %s \n", penonton[0][0], penonton[0][1]);
        System.out.printf("%s \t %s \n", penonton[1][0], penonton[1][1]);
        System.out.printf("%s \t %s \n", penonton[2][0], penonton[2][1]);
        System.out.printf("%s \t %s \n", penonton[3][0], penonton[3][1]);
@@ -46,7 +44,7 @@ public class Bioskop06 {
         System.out.println(penonton[2][i]);
        }
        //soal no 11 menggunakan for each
-       System.out.println(" penonton pada baris ke 3 = ");
+       System.out.println("penonton pada baris ke 3 = ");
 
        for (String i : penonton[2]){
         System.out.println(i);

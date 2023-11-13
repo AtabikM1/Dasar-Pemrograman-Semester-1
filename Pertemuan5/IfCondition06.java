@@ -17,7 +17,7 @@ public class IfCondition06 {
     if (suhu<16){
         System.out.println("Silahkan gunakan jaket");
     }
-    if (suhu<20){
+    else if (suhu<20){
         System.out.println("silahkan gunakan baju tebal");
     }
     else

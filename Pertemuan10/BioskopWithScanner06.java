@@ -45,10 +45,11 @@ public class BioskopWithScanner06 {
 
                             if(penonton[baris-1][kolom-1]== null||penonton[baris-1][kolom-1]== "***"){
                                 penonton[baris-1][kolom-1] = nama;
+                                break;
                             }else{
                                 System.out.println("kursi tidak tersedia");
                             }
-                        }while(penonton[baris-1][kolom-1]== null);
+                        }while(penonton[baris-1][kolom-1]!=null);
 
                         System.out.println("input penonton lainnya = ? (y/n)");
                         next = sc.nextLine();

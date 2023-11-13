@@ -28,7 +28,9 @@ public class dowhilecuti06 {
                     break;
                 }
 
-            } 
+            }else {
+                return;
+            }
         }while (jatahcuti>0);
     }
 }
