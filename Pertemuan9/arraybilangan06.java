@@ -5,7 +5,7 @@ public class arraybilangan06 {
         int bil [] = {1, 2, 3, 4};
         
         for(int i = 0; i < 4; i++){
-            System.out.println(bil[i]);
+            System.out.print(bil[i]);
         }
         
     }
