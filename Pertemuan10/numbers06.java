@@ -9,6 +9,9 @@ public class numbers06 {
 
         for(int i = 0; i < myNumbers.length; i++) {
             System.out.println(Arrays.toString(myNumbers[i]));
+            if(myNumbers[i].length== 0){
+                System.out.println("8");
+            }
         }
 
         for (int i = 0; i < myNumbers.length; i++){

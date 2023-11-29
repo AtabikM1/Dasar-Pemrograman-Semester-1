@@ -25,7 +25,7 @@ public class LinearSearch06 {
         for(int i= 0; i < arrayInt.length; i++){    
             if ( arrayInt[i]== key){    //gunakan struktur loooping untuk memproses searching key
                 hasil = i;
-                System.out.println("key ada dalam posisi indeks ke = "+hasil);
+                System.out.println("key ada dalam posisi indeks ke = "+ hasil);
 
             }else {
                 System.out.println("indeks tidak ditemukan");
