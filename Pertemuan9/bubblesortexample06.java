@@ -16,7 +16,7 @@ public class bubblesortexample06 {
             }
         }
         System.out.println("hasil pengurutan = ");
-        for (int i = 0; i < intdata.length; i++){
+        for (int i = 0; i < 1; i++){
             System.out.println(intdata[i]);
         }
     }

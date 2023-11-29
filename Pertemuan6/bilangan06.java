@@ -16,11 +16,11 @@ public class bilangan06 {
         
         if (bil1>bil2) {
             System.out.println("bilangan terbesar adalah" + bil1);
-        } else if (bil2<bil3) {
-            System.out.println("bilangan terbesar adalah " + bil3);
+        } else if (bil2>bil3) {
+            System.out.println("bilangan terbesar adalah " + bil2);
 
         }else
-        System.out.println("bilangan terbesar adalah "+ bil2);
+        System.out.println("bilangan terbesar adalah "+ bil3);
         
     }
 }

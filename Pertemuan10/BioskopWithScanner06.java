@@ -14,7 +14,7 @@ public class BioskopWithScanner06 {
 
 
         //Buat array bertipe String dengan nama penonton dengan 4 baris dan 2 kolom
-        String [][] penonton = new String[4][3];
+        String [][] penonton = new String[4][4];
 
         
 

@@ -11,9 +11,13 @@ public class porseni {
 
         //mengurutkan nama pada setiap cabang olahraga
 
-        for (String[] baris : atlet){
-            Arrays.sort(baris);
+        // for (String[] baris : atlet){
+        //     Arrays.sort(baris);
+        // }
+        for (int i = 0; i < atlet.length; i++) {//mengurutkan berdasarkan urutan alphabet
+            Arrays.sort(atlet[i]);
         }
+
         
         //print nama atlet dengan masing masing cabang olah raga
 
